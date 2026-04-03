@@ -110,3 +110,21 @@ body {
   cursor: pointer;
   font-weight: bold;
 }
+
+/* Compact voice message */
+.message audio {
+  width: 250px;
+  height: 50px;
+  margin-top: 4px;
+}
+
+/* Keep alignment clean inside bubbles */
+.sent audio {
+  display: block;
+  margin-left: auto;
+}
+
+.received audio {
+  display: block;
+  margin-right: auto;
+}
